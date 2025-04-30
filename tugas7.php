@@ -1,9 +1,9 @@
 <?php
-$akifah = "sehat";
-$wali = "sehat";
+$akifahsehat = true;
+$walisehat = true;
 
-if ($akifah == "sehat" && $wali == "sehat") {
-    echo "Akifah  berangkat ke sekolah";
+if ($akifahsehat && $walisehat) {
+    echo "Maka Akifah  berangkat ke sekolah";
 } else {
-    echo "Akifah tidak ke sekolah";
+    echo "Maka Akifah tidak ke sekolah";
 }
